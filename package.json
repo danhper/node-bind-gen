@@ -1,0 +1,29 @@
+{
+  "name": "bind-gen",
+  "version": "0.1.0",
+  "description": "lodash mixin to bind generator functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuvistavie/bind-gen.git"
+  },
+  "keywords": [
+    "lodash",
+    "bind",
+    "generator"
+  ],
+  "author": "Daniel Perez <daniel@claudetech.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuvistavie/bind-gen/issues"
+  },
+  "homepage": "https://github.com/tuvistavie/bind-gen#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "co": "^4.5.4",
+    "mocha": "^2.2.5"
+  }
+}
