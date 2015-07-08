@@ -1,7 +1,7 @@
 {
   "name": "bind-gen",
-  "version": "0.1.0",
-  "description": "lodash mixin to bind generator functions",
+  "version": "0.1.1",
+  "description": "bind for generator functions",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
