@@ -27,7 +27,7 @@ var argsYield = function *(a, b) {
   return this.v + a + b;
 };
 
-describe('lodash-bind-gen', function () {
+describe('bind-gen', function () {
   it('should work', function () {
     return co(function *() {
       expect(yield bindGen(promiseFunction, {v: 1})()).to.eq(1);
