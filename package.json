@@ -1,14 +1,14 @@
 {
   "name": "bind-gen",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "bind for generator functions",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --harmony"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuvistavie/bind-gen.git"
+    "url": "git+https://github.com/tuvistavie/node-bind-gen.git"
   },
   "keywords": [
     "bind",
@@ -17,9 +17,9 @@
   "author": "Daniel Perez <daniel@claudetech.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tuvistavie/bind-gen/issues"
+    "url": "https://github.com/tuvistavie/node-bind-gen/issues"
   },
-  "homepage": "https://github.com/tuvistavie/bind-gen#readme",
+  "homepage": "https://github.com/tuvistavie/node-bind-gen#readme",
   "devDependencies": {
     "chai": "^3.0.0",
     "co": "^4.5.4",
